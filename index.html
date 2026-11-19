@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Honesty Sales Ltd · Retail, software &amp; engineering</title>
-<meta name="description" content="Honesty Sales Ltd is a Wolverhampton company in online retail, apps and software, e-commerce websites and engineering services.">
+<meta name="description" content="Honesty Sales Ltd is a Wolverhampton company in online retail, apps and software, e-commerce websites and landfill CQA engineering.">
 <link rel="canonical" href="https://group.honestysales.com/">
 <link rel="icon" href="favicon.png">
 <meta property="og:title" content="Honesty Sales Ltd · Retail, software & engineering">
@@ -13,7 +13,7 @@
 <meta property="og:url" content="https://group.honestysales.com/">
 <meta name="theme-color" content="#062e22">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Organization","name":"Honesty Sales Ltd","description":"Online retail, apps and software, e-commerce websites and engineering services.","url":"https://group.honestysales.com/","logo":"https://group.honestysales.com/logo.png","email":"sales@honestysales.com","address":{"@type":"PostalAddress","streetAddress":"PA103 Technology Centre, Glaisher Drive","addressLocality":"Wolverhampton","postalCode":"WV10 9RU","addressCountry":"GB"},"identifier":"Companies House 15075596"}
+{"@context":"https://schema.org","@type":"Organization","name":"Honesty Sales Ltd","description":"Online retail, apps and software, e-commerce websites and landfill construction quality assurance (CQA) engineering.","url":"https://group.honestysales.com/","logo":"https://group.honestysales.com/logo.png","email":"sales@honestysales.com","address":{"@type":"PostalAddress","streetAddress":"PA103 Technology Centre, Glaisher Drive","addressLocality":"Wolverhampton","postalCode":"WV10 9RU","addressCountry":"GB"},"identifier":"Companies House 15075596"}
 </script>
 <style>
 :root{
@@ -94,6 +94,22 @@ h2{font-size:clamp(28px,4vw,40px);line-height:1.15;letter-spacing:-.025em;font-w
 .svc .go a{text-decoration:none}
 .svc a{color:var(--brand);font-weight:600}
 
+
+/* engineering */
+.eng{background:var(--bg)}
+.eng-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
+.eng-grid>div{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px}
+.eng-grid h3{font-size:18px;letter-spacing:-.01em;margin-bottom:8px}
+.eng-grid p{color:#3c4c45;font-size:15px}
+.eng-grid ul{list-style:none;margin-top:14px;display:grid;gap:7px}
+.eng-grid li{font-size:14.5px;color:var(--ink);padding-left:20px;position:relative}
+.eng-grid li::before{content:"";position:absolute;left:2px;top:9px;width:8px;height:8px;border-radius:2px;background:var(--gold)}
+.eng-grid .eng-cta{background:var(--deep);border-color:var(--deep);color:#fff;display:flex;flex-direction:column;gap:12px;justify-content:center}
+.eng-grid .eng-cta h3{color:#fff}
+.eng-grid .eng-cta p{color:#cfe6da}
+.eng-grid .eng-cta .btn{align-self:flex-start}
+.services + .eng{border-top:0}
+
 /* about + contact */
 .two{display:grid;grid-template-columns:1.2fr 1fr;gap:28px;align-items:start}
 @media(max-width:860px){.two{grid-template-columns:1fr}}
@@ -123,6 +139,7 @@ footer a{color:#d6ece0;text-decoration:none}
     <a class="brand" href="#top"><img src="logo.png" alt=""><span>Honesty Sales<small>Ltd · Group</small></span></a>
     <ul>
       <li><a href="#services">What we do</a></li>
+      <li><a href="#engineering">Engineering</a></li>
       <li><a href="#apps">Apps</a></li>
       <li><a href="#about">Company</a></li>
       <li><a href="#privacy">Privacy &amp; support</a></li>
@@ -134,7 +151,7 @@ footer a{color:#d6ece0;text-decoration:none}
   <div class="wrap">
     <span class="eyebrow">Honesty Sales Ltd · Wolverhampton, UK</span>
     <h1>Retail, software and engineering from one UK company</h1>
-    <p>Honesty Sales Ltd runs two online shops, builds apps and e-commerce websites, and provides engineering services across the UK.</p>
+    <p>Honesty Sales Ltd runs two online shops, builds apps and e-commerce websites, and provides landfill construction quality assurance (CQA) engineering across the UK.</p>
     <div class="cta">
       <a class="btn btn-gold" href="#services">What we do</a>
       <a class="btn btn-ghost" href="#contact">Work with us</a>
@@ -176,15 +193,82 @@ footer a{color:#d6ece0;text-decoration:none}
       </div>
       <div>
         <div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 0 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 0 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 0 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 0 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></div>
-        <h3>Engineering services</h3>
-        <p>Contract engineering on client sites across the UK, provided through Honesty Sales Ltd.</p>
-        <p class="go"><a href="#contact">Enquire →</a></p>
+        <h3>Landfill CQA engineering</h3>
+        <p>Construction quality assurance and field supervision on landfill sites: cell construction, capping, and gas and leachate well drilling.</p>
+        <p class="go"><a href="#engineering">Our engineering services →</a></p>
       </div>
     </div>
   </div>
 </section>
 
-<section id="apps">
+<section id="engineering" class="eng">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Engineering services</span>
+      <h2>Landfill construction quality assurance &amp; field engineering</h2>
+      <p>We provide CQA engineers and field supervision for landfill operators, contractors and engineering consultancies. On site, we check that every layer and installation is built to the approved design and CQA plan, and we keep the records and test evidence that the CQA validation report depends on.</p>
+    </div>
+    <div class="eng-grid">
+      <div>
+        <h3>Cell construction CQA</h3>
+        <p>Full-time supervision of new cell construction, so that each stage is inspected, tested and signed off before the next layer goes on and before waste is placed.</p>
+        <ul>
+          <li>Formation and subgrade preparation</li>
+          <li>Engineered clay and artificially established geological barriers</li>
+          <li>Geomembrane and geosynthetic lining systems</li>
+          <li>Protection layers, leachate drainage blankets and collection pipework</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Capping &amp; restoration</h3>
+        <p>CQA supervision of capping on completed landfill phases, sealing waste in place to control rainwater ingress, leachate generation and gas emissions.</p>
+        <ul>
+          <li>Regulating and profiling layers</li>
+          <li>Clay and geosynthetic cap barriers</li>
+          <li>Cap drainage and restoration soils</li>
+          <li>Thickness, level and profile checks</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Gas well drilling supervision</h3>
+        <p>Supervising the drilling and installation of landfill gas extraction wells, so that wells are built to specification and recorded accurately.</p>
+        <ul>
+          <li>Drilling into waste and logging arisings</li>
+          <li>Well depth, casing and slotted screen checks</li>
+          <li>Gravel pack, seals and wellhead installation</li>
+          <li>As-built well records</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Leachate well drilling supervision</h3>
+        <p>Supervising leachate extraction and monitoring wells, which let operators control leachate levels and protect the lining system.</p>
+        <ul>
+          <li>Borehole drilling and logging</li>
+          <li>Well construction against design</li>
+          <li>Installation and completion records</li>
+          <li>Safe working when drilling into waste</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Testing, records &amp; reporting</h3>
+        <p>Clear, auditable records from the field, ready for the CQA validation report and for the regulator.</p>
+        <ul>
+          <li>Daily site diaries and photographic records</li>
+          <li>Material sampling and in-situ testing</li>
+          <li>Non-conformance reporting and close-out</li>
+          <li>Inputs to CQA validation reports</li>
+        </ul>
+      </div>
+      <div class="eng-cta">
+        <h3>Need a CQA engineer on site?</h3>
+        <p>We take on short and long placements across the UK, direct or through your engineering consultancy.</p>
+        <a class="btn btn-gold" href="mailto:sales@honestysales.com?subject=CQA%20engineering%20enquiry">Email an enquiry</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="apps" style="background:#fff;border-top:1px solid var(--line)">
   <div class="wrap">
     <div class="head">
       <span class="eyebrow">Our apps</span>
@@ -271,7 +355,7 @@ footer a{color:#d6ece0;text-decoration:none}
     <div class="about">
       <span class="eyebrow" style="color:var(--brand)">Company</span>
       <h2>About Honesty Sales Ltd</h2>
-      <p>Honesty Sales Ltd is a UK company based in Wolverhampton. We sell online through honestysales.com and adomoo.com, build apps and e-commerce websites for ourselves and for clients, and provide engineering services on client sites.</p>
+      <p>Honesty Sales Ltd is a UK company based in Wolverhampton. We sell online through honestysales.com and adomoo.com, build apps and e-commerce websites for ourselves and for clients, and provide construction quality assurance (CQA) and field engineering on landfill sites.</p>
       <p>Adomoo is a trading name of Honesty Sales Ltd.</p>
     </div>
     <div class="facts" id="contact">
